@@ -152,7 +152,8 @@ struct ShapeSpec {
     bool isRegular() const;
     bool isCircular() const;
     // used to attach missiles and launchables to launcher - missiles point in the same direction as directional launchers
-    bool isDirectional() const { return !launcher_radial; }
+	bool isDirectional() const { return !launcher_radial; }
+//	bool isDirectional() const;// { return !launcher_radial; }
     bool isScale() const;
     int sides() const;
     int outPortThruster() const; // -1 if no out port

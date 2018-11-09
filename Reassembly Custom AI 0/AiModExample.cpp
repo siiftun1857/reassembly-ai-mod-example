@@ -76,6 +76,15 @@ bool CreateAiActions(AI* ai) {
     {
         ai->addActionVanilla(VANILLA_ACTION_TYPE_WANDER);
     }
-
+	
     return true; // we handled it; no need for default AI actions
 }
+
+/*bool ShapeSpec::isDirectional() const 
+{
+	if (shape == SHAPE_CANNON2) {
+		throw;
+		system("echo \"666\" >> \"C:\\Users\\Administraor\\Saved Games\\Reassembly\\mods\\AiModExample\\output.txt\"");
+	}
+	return !launcher_radial;
+}*/
